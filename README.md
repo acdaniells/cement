@@ -1,6 +1,5 @@
 [![Continuous Integration Status](https://travis-ci.org/acdaniells/cement.svg?branch=master)](https://travis-ci.org/acdaniells/cement)
-
-[![codecov](https://codecov.io/gh/acdaniells/cement/coverage.svg?branch=master)](https://codecov.io/gh/acdaniells/cement)
+[![codecov](https://codecov.io/gh/acdaniells/cement/branch/master/graph/badge.svg)](https://codecov.io/gh/acdaniells/cement)
 
 # Cement Framework
 
@@ -44,19 +43,17 @@ Cement core features include (but are not limited to):
 *developer to include these dependencies along with their application, as Cement
 *explicitly does not include them.*
 
-## More Information
-
-Links to the original package:
-
-- [Official Website / Developer Documentation](http://builtoncement.com/)
-- [PyPi Packages](http://pypi.python.org/pypi/cement/)
-- [GitHub Source Code / Issue Tracking](http://github.com/datafolklabs/cement/)
-
 ## License
 
 The Cement CLI Application Framework is Open Source and is distributed under the
-BSD License (three clause). Please see the LICENSE file included with this
-software.
+BSD License (three clause).
+
+## Acknowledgements
+
+This project is a derivative of the Cement Framework by Data Folk Labs.
+
+- [Official Website](http://builtoncement.com)
+- [GitHub](http://github.com/datafolklabs/cement)
 
 ## Development
 
