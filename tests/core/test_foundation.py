@@ -199,6 +199,7 @@ def test_passed_handlers():
     # forces App._resolve_handler to register the handler by class
     from cement.core.extension import ExtensionHandler
     from cement.ext.ext_configparser import ConfigParserConfigHandler
+    from cement.ext.ext_platform import CementPlatformHandler
     from cement.ext.ext_logging import LoggingLogHandler
     from cement.ext.ext_argparse import ArgparseArgumentHandler
     from cement.ext.ext_plugin import CementPluginHandler
@@ -208,6 +209,7 @@ def test_passed_handlers():
     class MyApp(TestApp):
         class Meta:
             config_handler = ConfigParserConfigHandler
+            platform_handler = CementPlatformHandler()
             log_handler = LoggingLogHandler()
             arg_handler = ArgparseArgumentHandler()
             extension_handler = ExtensionHandler()
@@ -217,6 +219,7 @@ def test_passed_handlers():
             argv = [__file__, "--debug"]
 
     with MyApp() as app:
+        assert isinstance(app.platform, CementPlatformHandler)
         assert isinstance(app.log, LoggingLogHandler)
         assert isinstance(app.plugin, CementPluginHandler)
         assert isinstance(app.args, ArgparseArgumentHandler)

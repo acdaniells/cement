@@ -82,7 +82,7 @@ def test_invalid_variable_value(tmp):
     argv = ["generate", "test2", tmp.dir, "--defaults"]
 
     with GenerateApp(argv=argv) as app:
-        msg = "Invalid Response (must match: '.*not-bar1.*')"
+        msg = re.escape("Invalid Response (must match: '.*not-bar1.*')")
         with raises(AssertionError, match=msg):
             app.run()
 
