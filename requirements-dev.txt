@@ -17,16 +17,11 @@ pre-commit
 # Required for optional extensions
 colorlog
 enlighten
-ibis-framework[kerberos,impala]
-impyla==0.15.0
 jinja2
 pylibmc
 pysocks
 pystache
 PyYAML
 redis
-sasl==0.2.1
 tabulate
-thrift_sasl==0.2.1
-thriftpy2==0.4.0
 watchdog
