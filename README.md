@@ -1,3 +1,5 @@
+[![Continuous Integration Status](https://travis-ci.org/acdaniells/cement.svg?branch=master)](https://travis-ci.org/acdaniells/cement)
+
 # Cement Framework
 
 Cement is an advanced Application Framework for Python, with a primary focus on
@@ -12,7 +14,6 @@ The first commit to Git was on Dec 4, 2009. Since then, the framework has seen
 several iterations in design, and has continued to grow and improve since it's
 inception. Cement is the most stable, and complete framework for command line
 and backend application development.
-
 
 ## Core Features
 
@@ -33,14 +34,13 @@ Cement core features include (but are not limited to):
 - 100% test coverage (`pytest`)
 - 100% PEP8 compliant (`flake8`)
 - Extensive API Reference (`sphinx`)
-- Tested on Python 3.5+
+- Tested on Python 3.6+
 - Does not support Python 2.x
 
 *Some optional extensions that are shipped with the mainline Cement sources do
 *require external dependencies. It is the responsibility of the application
 *developer to include these dependencies along with their application, as Cement
 *explicitly does not include them.*
-
 
 ## More Information
 
@@ -50,13 +50,11 @@ Links to the original package:
 - [PyPi Packages](http://pypi.python.org/pypi/cement/)
 - [GitHub Source Code / Issue Tracking](http://github.com/datafolklabs/cement/)
 
-
 ## License
 
 The Cement CLI Application Framework is Open Source and is distributed under the
 BSD License (three clause). Please see the LICENSE file included with this
 software.
-
 
 ## Development
 

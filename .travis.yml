@@ -1,11 +1,12 @@
 language: python
-sudo: false
-script: ./scripts/travis.sh
-os:
-  - linux
 python:
-  - 3.6
-  - 3.7
+  - "3.6"
+  - "3.7"
+  - "3.8"
+install:
+  - pip install -r requirements-dev.txt
+script:
+  - make test
 services:
   - memcached
   - redis-server
