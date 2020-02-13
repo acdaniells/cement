@@ -10,3 +10,5 @@ script:
 services:
   - memcached
   - redis-server
+after_success:
+  - codecov

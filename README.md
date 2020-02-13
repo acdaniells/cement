@@ -1,5 +1,7 @@
 [![Continuous Integration Status](https://travis-ci.org/acdaniells/cement.svg?branch=master)](https://travis-ci.org/acdaniells/cement)
 
+[![codecov](https://codecov.io/gh/acdaniells/cement/coverage.svg?branch=master)](https://codecov.io/gh/acdaniells/cement)
+
 # Cement Framework
 
 Cement is an advanced Application Framework for Python, with a primary focus on
