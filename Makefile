@@ -38,10 +38,10 @@ develop:
 	@echo
 
 test:
-	env/bin/python3 -m pytest -v --cov=cement --cov-report=term --cov-report=html:coverage tests/
+	python3 -m pytest -v --cov=cement --cov-report=term --cov-report=html:coverage tests/
 
 test-core:
-	env/bin/python3 -m pytest -v --cov=cement.core --cov-report=term --cov-report=html:coverage tests/core
+	python3 -m pytest -v --cov=cement.core --cov-report=term --cov-report=html:coverage tests/core
 
 comply:
 	flake8 cement/ tests/
