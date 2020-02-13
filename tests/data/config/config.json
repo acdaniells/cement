@@ -1,0 +1,15 @@
+{
+  "section": {
+    "key1": "ok1",
+    "key2": "ok2",
+    "subsection": {
+      "key": "value",
+      "list": [
+        "item1",
+        "item2",
+        "item3",
+        "item4"
+      ]
+    }
+  }
+}
