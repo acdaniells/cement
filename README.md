@@ -1,5 +1,7 @@
-[![Continuous Integration Status](https://travis-ci.org/acdaniells/cement.svg?branch=master)](https://travis-ci.org/acdaniells/cement)
-[![codecov](https://codecov.io/gh/acdaniells/cement/branch/master/graph/badge.svg)](https://codecov.io/gh/acdaniells/cement)
+[![Build Status](https://travis-ci.org/acdaniells/cement.svg?branch=master)](https://travis-ci.org/acdaniells/cement)
+[![Codecov](https://codecov.io/gh/acdaniells/cement/branch/master/graph/badge.svg)](https://codecov.io/gh/acdaniells/cement)
+[![License](https://img.shields.io/badge/license-BSD%203--Clause-blue.svg)](https://github.com/acdaniells/cement/blob/master/LICENSE)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 # Cement Framework
 
